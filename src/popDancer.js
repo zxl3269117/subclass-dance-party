@@ -2,7 +2,7 @@
 var PopDancer = function(top, left, colorChangingTime) {
   Dancer.call(this, top, left, colorChangingTime);
   Dancer.prototype.step.call(this);
-  this.$node = $('<img class ="dancer" src ="/img/daisy.png" width="160" height="190"></img>');
+  this.$node = $('<img class ="dancer" src ="./img/daisy.png" width="160" height="190"></img>');
   this.$node.css({border: '10px solid red', 'border-radius': '10px'});
   Dancer.prototype.setPosition.call(this, top, left);
 };

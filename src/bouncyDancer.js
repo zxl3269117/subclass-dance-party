@@ -1,7 +1,7 @@
 var BouncyDancer = function(top, left, bounceTime) {
   Dancer.call(this, top, left, bounceTime);
   Dancer.prototype.step.call(this);
-  this.$node = $('<img class ="dancer" src ="/img/mario.png" width="200" height="160"></img>');
+  this.$node = $('<img class ="dancer" src ="./img/mario.png" width="200" height="160"></img>');
   Dancer.prototype.setPosition.call(this, top, left);
 
 };

@@ -22,7 +22,7 @@ body, a:link, a:visited, a:active{
 }
 
 body {
-  background-image: url(/img/background.jpeg);
+  background-image: url(./img/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
